@@ -209,22 +209,80 @@
 					</ul>
 				</section>
 
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
+				<section>
+					<section>
+						<h3>Comentarios</h3>
+					</section>
+					<section>
+						comentarios de una linea 
+						<pre><code class="hljs php" data-trim contenteditable>
+							// Perfecto para codigo complejo o texto rapido
+						</code></pre>
+					</section>
+					<section>
+						Comentarios multilinea
+						<pre><code class="hljs php" data-trim contenteditable>
+							/* 
+							  Perfecto 
+							  para 
+							  definicion de
+							  funciones o 
+							  clases
+							*/
+						</code></pre>
+					</section>
+					<section>
+						<pre><code class="hljs php" data-trim contenteditable>
+							//======================================================================
+							// CATEGORY LARGE FONT
+							//======================================================================
 
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+							//-----------------------------------------------------
+							// Sub-Category Smaller Font
+							//-----------------------------------------------------
 
-						```
-						<section data-markdown>
-						  ## Markdown support
+							/* Title Here Notice the First Letters are Capitalized */
 
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
+							# Option 1
+							# Option 2
+							# Option 3
+
+							/*
+							* This is a detailed explanation
+							* of something that should require
+							* several paragraphs of information.
+							*/
+
+							// This is a single line quote.
+						</code></pre>
+					</section>
+					<section>
+						Las Anotaciones no son comentarios
+						<pre><code class="hljs java" data-trim contenteditable>
+						  @Retention(RetentionPolicy.RUNTIME)
+						  @Target(ElementType.METHOD)
+						</code></pre>
+					</section>
+					<section>
+						pero ayudan a crear documentación 
+						<pre><code class="hljs java" data-trim contenteditable>
+							/**
+							* Emilious Sender (class worker) :)
+							*
+							* Envio de emails (MIME - multipart)
+							*
+							* Codificacion de mensajes segun RFC-822
+							* Utiliza la especificacion mime
+							* Permite enviar ficheros adjuntos utilizando
+							* Permite el envio a multiples destinatarios
+							*
+							* @author Enrique Fernandez-Perera [Epsilon Eridani]
+							* @author http://www.epsilon-eridani.com
+							*
+							* @package Emilious_Sender
+							*/
+						</code></pre>
+					</section>
 				</section>
 
 				<section>
